@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.textfield {
+  padding: .5rem;
+}
+.textfield .MuiFormControl-root {
+  width: 100%;
+}
+.playerList {
+  padding: .5rem;
+  margin-bottom: .5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#playerInput {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.roleBox {
+  padding: .5rem;
+  margin-bottom: .5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mafia {
+  color: red;
+  border: 1px solid red;
+}
+
+.villager {
+  color: black;
+  border: 1px solid black;
+}
+
+.angel {
+  color: lightskyblue;
+  border: 1px solid lightskyblue;
+  
+}
