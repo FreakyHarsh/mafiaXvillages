@@ -90,7 +90,7 @@ function App() {
       <br />
       <div>
         <Button variant="contained" color="primary" onClick={assignRole}>
-          Assign
+          Assign or Shuffle
         </Button>
       </div>
       <br />
